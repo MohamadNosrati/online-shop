@@ -1,7 +1,7 @@
 import IIconProps from "./props";
 import Svg , { Path } from 'react-native-svg';
 
-export const ArrowIcon : React.FC<IIconProps> = ({width,height,color}) => {
+export const SettingsIcon : React.FC<IIconProps> = ({width,height,color}) => {
   return (
     <Svg
       width={width}
