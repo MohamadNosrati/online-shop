@@ -30,7 +30,7 @@ export default function RootLayout() {
   return (
     <Providers>
       <SafeAreaView
-        className={cn("pb-16 px-5 flex-1", {
+        className={cn(" px-5 flex-1", {
           "pt-8": Platform.OS === "android",
         })}
       >

@@ -1,5 +1,4 @@
 import { CameraIcon } from "@/components/icons/Camera";
-import CustomView from "@/components/ui/CustomView";
 import frontRoutes from "@/lib/routes/frontRoutes";
 import { Href, Link, router } from "expo-router";
 import {

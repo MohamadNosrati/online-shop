@@ -15,7 +15,8 @@ const TabsLayout = () => {
           tabBarActiveTintColor: projectColors.primary,
           tabBarShowLabel: false,
           headerShadowVisible: false,
-          headerShown: false,
+          headerShown: false,// Blue for active tab
+          tabBarInactiveTintColor: projectColors.black, // Gray for inactive tab
         }}
       >
         <Tabs.Screen
