@@ -1,4 +1,4 @@
-import { ArrowIcon } from "@/components/icons/arrow";
+import { ArrowIcon } from "@/components/icons/Arrow";
 import ProductCard from "@/components/ui/ProductCard";
 import frontRoutes from "@/lib/routes/frontRoutes";
 import { Href, router } from "expo-router";

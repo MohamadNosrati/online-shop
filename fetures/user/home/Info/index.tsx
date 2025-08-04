@@ -1,4 +1,4 @@
-import { ArrowIcon } from "@/components/icons/arrow";
+import { ArrowIcon } from "@/components/icons/Arrow";
 import { HamburgerIcon } from "@/components/icons/Hamburger";
 import { ScreenIcon } from "@/components/icons/Screen";
 import { SettingsIcon } from "@/components/icons/Settings";
@@ -13,7 +13,7 @@ import profileImage from "@/assets/images/profile.png";
 const Info = () => {
   return (
     <>
-      <View className="flex-row justify-between items-center">
+      <View className="flex-row justify-between items-center w-full bg-red-400">
         <View className="flex items-center flex-row gap-x-2">
           <UserProfile
             containerHeight={48}

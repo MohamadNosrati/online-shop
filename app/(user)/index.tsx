@@ -13,11 +13,12 @@ import NewItems from "@/fetures/user/home/NewItems";
 import Stories from "@/fetures/user/home/Stories";
 import MyOrders from "@/fetures/user/home/MyOrders";
 import RecentlyViewed from "@/fetures/user/home/RecentlyViewed";
+import Info from "@/fetures/user/home/Info";
 
 const Home = () => {
   return (
-    <ScrollView className="bg-white flex-1">
-
+    <ScrollView className="bg-white flex-1 gap-y-6">
+      <Info/>
       <RecentlyViewed/>
       <MyOrders/>
       <Stories/>
